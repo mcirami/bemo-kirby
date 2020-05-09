@@ -1,0 +1,44 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Contact Us
+preset: page
+
+# Page options allow you to control how users can interact with the page.
+# Here we prevent changing the page status (the home page cannot be renamed or deleted by default)
+# More about page options: https://getkirby.com/docs/reference/panel/blueprints/page#options
+options:
+  changeStatus: true
+  delete: false
+
+# Here we define an info section and a pages section (`main`)
+sections:
+  images:
+    label: Hero Image
+    type: files
+
+  content:
+    type: fields
+    fields:
+      metaindex:
+        label: No Index
+        type: checkboxes
+        options:
+          noindex: No Index
+      metatitle:
+        label: Meta Page Title
+        type: text
+      metadescription:
+        label: Meta Page Description
+        type: text
+      businessinfo:
+        label: Business Information
+        type: textarea
+      body:
+        label: Text Under Form
+        type: textarea
+      contactemail:
+        label: Contact Form Email
+        type: email
+
+
+
+

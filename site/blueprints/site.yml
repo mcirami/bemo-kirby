@@ -1,0 +1,47 @@
+title: Site
+unlisted: true
+
+sections:
+  content:
+    type: fields
+    fields:
+      logo:
+        label: Header Logo
+        type: files
+
+      pages:
+        type: pages
+        create: default
+        templates:
+          - main
+          - contact-us
+      social:
+        label: Social Media
+        type: structure
+        fields:
+          platform:
+            label: Platform
+            type: text
+          url:
+            label: URL
+            type: url
+      footerlinks:
+        label: Footer Links
+        type: structure
+        fields:
+          text:
+            label: Link Text
+            type: text
+          url:
+            label: URL
+            type: url
+      footercopy:
+        label: Footer Copyright Text
+        type: text
+      facebookpixel:
+        label: Enter Facebook Pixel Script
+        type: text
+      googleanalytics:
+        label: Enter Google Analytics Script
+        type: text
+

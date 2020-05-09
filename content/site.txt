@@ -1,0 +1,50 @@
+Title: CDA Interview Guide
+
+----
+
+Logo:
+
+- logo.png
+
+----
+
+Pages:
+
+- main
+- contact-us
+
+----
+
+Social:
+
+- 
+  platform: Facebook
+  url: >
+    https://www.facebook.com/bemoacademicconsulting
+- 
+  platform: Twitter
+  url: https://twitter.com/BeMo_AC
+
+----
+
+Footerlinks:
+
+- 
+  text: 'Disclaimer & Privacy Policy'
+  url: >
+    http://cdainterview.com/disclaimer-privacy-policy.html
+- 
+  text: Contact Us
+  url: mailto:info@bemoacademicconsulting.com
+
+----
+
+Footercopy: ©2013-2016 BeMo Academic Consulting Inc. All Rights Reserved.
+
+----
+
+Facebookpixel: 
+
+----
+
+Googleanalytics: 

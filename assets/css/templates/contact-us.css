@@ -1,0 +1,39 @@
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form-control {
+  background-color: #CCCCCC;
+}
+
+form label {
+  font-size: 12px;
+  color: #373737;
+}
+
+input[type="text"], input[type="email"] {
+  height: 40px;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+input[type="submit"] {
+  color: #000066;
+  background-color: #999999;
+  -webkit-transition: all 450ms;
+  -moz-transition: all 450ms;
+  -ms-transition: all 450ms;
+  -o-transition: all 450ms;
+  transition: all 450ms;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  width: 6%;
+  padding: 5px 10px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #ffffff;
+}

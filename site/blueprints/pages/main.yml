@@ -1,0 +1,82 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Main
+preset: page
+
+# Page options allow you to control how users can interact with the page.
+# Here we prevent changing the page status (the home page cannot be renamed or deleted by default)
+# More about page options: https://getkirby.com/docs/reference/panel/blueprints/page#options
+options:
+  changeStatus: true
+  delete: false
+
+# Here we define an info section and a pages section (`main`)
+sections:
+  content:
+    type: fields
+    fields:
+      metaindex:
+        label: No Index
+        type: checkboxes
+        options:
+          noindex: No Index
+      metatitle:
+        label: Meta Page Title
+        type: text
+      metadescription:
+        label: Meta Page Description
+        type: text
+      herotext:
+        label: Hero Text
+        type: text
+      heroimage:
+        label: Hero Image
+        type: files
+      pagesubheader:
+        label: Sub Header Text
+        type: text
+      overviewsectiontitle:
+        label: Overview Section Title
+        type: text
+      overviewsectiontext:
+        label: Overview Section Text
+        type: textarea
+      purposesectiontitle:
+        label: Purpose Section Title
+        type: text
+      purposesectiontext:
+        label: Purpose Section Text
+        type: textarea
+      historysectiontitle:
+        label: History Section Title
+        type: text
+      historysectiontext:
+        label: History Section Text
+        type: textarea
+      questionssectiontitle:
+        label: Questions Section Title
+        type: text
+      questionssectiontext:
+        label: Questions Section Text
+        type: textarea
+      competenciessectiontitle:
+        label: Competencies Section Title
+        type: text
+      competenciessectiontext:
+        label: Competencies Section Text
+        type: textarea
+      structuresectiontitle:
+        label: Structure Section Title
+        type: text
+      structuresectiontext:
+        label: Structure Section Text
+        type: textarea
+      referencesectiontitle:
+        label: Reference Section Title
+        type: text
+      referencesectiontext:
+        label: Reference Section Text
+        type: textarea
+
+
+
+
